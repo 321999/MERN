@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-color: rgba(127, 255, 212,0.2);
+    }
+    #normal{
+        margin-top: 0px;
+        margin-bottom: 7px;
+        text-align: center;
+        /* font-family: ;
+         */
+         padding: 1rem;
+         background-color: aqua;
+         box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+        color: orange;
+        font-size: 80px;
+        font-family: "Audiowide", sans-serif;
+    }
+
+    #head{
+        display: none;
+        margin-top: 0px;
+        margin-bottom: 7px;
+        text-align: center;
+        /* font-family: ;
+         */
+         padding: 1rem;
+         background-color: aqua;
+         box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+        color: orange;
+        font-size: 80px;
+        font-family: "Audiowide", sans-serif;  
+    }
+
+
+    .dream{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+/* media screen for phone */
+@media only screen and (max-width:600px) {
+    .dream{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+    #normal{
+        display: none;        
+    }
+    #head{
+        display: block;
+    }
+
+}
+
+/* for laptop */
+@media (max-width:768px) and (min-widht:600px) {
+    .dream{
+        display: grid;
+        grid-template-columns: auto auto;
+        
+    }   
+   
+    h3{
+        display: none;
+    } 
+}
+    .dream img{
+        width:100%;
+    }
+    
+</style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="heading">
+            <h3 id="normal">photo <span>Gallery</span></h3>
+     
+            <h3 id="head">phone <span>Gallery</span></h3>
+        </div>
+<!-- 
+        <div class="heading">
+            <h3 id="head">photo <span>Gallery</span></h3>
+            
+        </div> -->
+
+
+        <div class="box">
+
+            <div class="dream">
+                <img src="https://images.unsplash.com/photo-1676238540582-
+5958404206c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
+                <img src="https://images.unsplash.com/photo-1676365743910-
+35ba5be051b8?ixlib=rb-
+4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1fHhIeFlUTUhMZ09jfHxlbnwwfHx8fA%3D%3D
+" />
+                <img src="https://images.unsplash.com/photo-1676271608840-
+9712fe255ae0?ixlib=rb-
+4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE5fHhIeFlUTUhMZ09jfHxlbnwwfHx8fA%3D%3D
+" />
+                <img src="https://images.unsplash.com/photo-1671483330944-
+36bbbe090e8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
+            </div>
+
+
+            <div class="dream">
+                <img src="https://images.unsplash.com/photo-1676238540582-
+5958404206c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
+                <img src="https://images.unsplash.com/photo-1676365743910-
+35ba5be051b8?ixlib=rb-
+4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1fHhIeFlUTUhMZ09jfHxlbnwwfHx8fA%3D%3D
+" />
+
+<img src="https://images.unsplash.com/photo-1676271608840-
+9712fe255ae0?ixlib=rb-
+4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE5fHhIeFlUTUhMZ09jfHxlbnwwfHx8fA%3D%3D
+" />
+
+
+
+                <img src="https://images.unsplash.com/photo-1676271608840-
+9712fe255ae0?ixlib=rb-
+4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE5fHhIeFlUTUhMZ09jfHxlbnwwfHx8fA%3D%3D
+" />
+                <img src="https://images.unsplash.com/photo-1671483330944-
+36bbbe090e8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
+            </div>
+
+
+
+
+            <div class="dream">
+                <img src="https://images.unsplash.com/photo-1676238540582-
+5958404206c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
+                <img src="https://images.unsplash.com/photo-1676365743910-
+35ba5be051b8?ixlib=rb-
+4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE1fHhIeFlUTUhMZ09jfHxlbnwwfHx8fA%3D%3D
+" />
+                <img src="https://images.unsplash.com/photo-1676271608840-
+9712fe255ae0?ixlib=rb-
+4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE5fHhIeFlUTUhMZ09jfHxlbnwwfHx8fA%3D%3D
+" />
+                <img src="https://images.unsplash.com/photo-1671483330944-
+36bbbe090e8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" />
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
